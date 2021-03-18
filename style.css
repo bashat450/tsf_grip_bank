@@ -1,0 +1,246 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+.navigation{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 5px;
+    border-radius: 12px;
+    border: 2px solid black;
+    color: rgb(84, 12, 136);
+    
+    
+}
+
+.div-left{
+    font-size: 30px;
+    display: flex;
+    font-weight: bold;
+    /* color: lawngreen; */
+}
+
+.div-left ul{
+    display: flex;
+    align-items: center;
+    margin: 0 17px;
+    font-size: 25px;
+    
+    
+}
+
+.div-left ul li{
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.div-left ul li a{
+    text-decoration: none;
+    color: green;
+
+}
+
+.div-left ul li a:hover{
+    font-weight: bolder;
+    transition: all 0.3s ease-in-out;
+    color: khaki;
+    
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    
+    padding: 5px;
+    position: relative;
+}
+
+.content::after{
+    content: "";
+    background-image: url('img/bank.jpg');
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.2;
+}
+
+.content-right{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    display: flex;
+    padding: 10px;
+    z-index: 1;
+}
+.content-left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bank-img{
+    height:250px;
+    width: 400px;
+    border-radius: 60px;
+}
+
+.content-1{
+    height: 100%;
+    display: flex;
+    
+    padding: px;
+    position: relative;
+}
+
+.content-1-right{
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* font-weight: bold;
+    padding: 9px;
+    z-index: 1; */
+}
+.history{
+    height: 180px;
+    width: 200px;
+    border-radius: 60px;
+}
+
+.content-1-left{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.create-user{
+    height: 200px;
+    width: 200px;
+    border-radius: 60px;
+}
+.content-1-medium{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.make-tranaction{
+    height: 150px;
+    width: 200px;
+    border-radius: 60px; 
+}
+
+.content-2{
+    height: 100%;
+    display: flex;
+    
+    padding: px;
+    position: relative;
+}
+.content-2-right{
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+    
+    z-index: 1;
+}
+.btn-user{
+    color: chocolate;
+    background-color: rgb(118, 226, 194);
+    padding: 0px 15px;
+    margin: 0px 0px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-family: var(--font2);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.btn-user:hover{
+    color:aliceblue;
+    background-color: cornflowerblue;
+}
+.content-2-medium{
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+    
+    z-index: 1;
+}
+.btn-trans{
+    color: chocolate;
+    background-color: rgb(118, 226, 194);
+    padding: 0px 15px;
+    margin: 0px 0px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-family: var(--font2);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.btn-trans:hover{
+    color:aliceblue;
+    background-color: cornflowerblue;
+}
+.content-2-left{
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+    
+    z-index: 1;
+}
+.btn-trans-history{
+    color: chocolate;
+    background-color: rgb(118, 226, 194);
+    padding: 0px 15px;
+    margin: 0px 0px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-family: var(--font2);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.btn-trans-history:hover{
+    color:aliceblue;
+    background-color: cornflowerblue;
+}
+
+.footer{
+    height: 50%;
+    background-color: rgb(37, 211, 89);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    flex-direction: column;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.footer-link{
+    color: rgb(113, 16, 204);
+    text-decoration: none;
+}
+
+.footer-tsf{
+    color: brown;
+    text-decoration: none;
+}
